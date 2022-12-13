@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+    blogApp | Login
+{% endblock %}
+
+{% block contenido %}
+
+{% load static %}
+<div class = "container-about">
+    <h2>blogApp | CoderHouse </h2>
+
+    <p>Proyecto final realizado por Alesio Cobresi,Ignacio Quintana y Salvador Gaiero</p>
+
+    <h2>About me...</h2>
+    <img src="{% static 'imgs/about-me.jpeg' %}" alt="" > 
+    </br>
+    <p>Somos Alesio Cobresi,Ignacio Quintana y Salvador Gaiero, y buscamos poder introducirnos en el mundo de la programación.
+    </p>
+
+</div>
+
+{% endblock %}
